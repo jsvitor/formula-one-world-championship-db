@@ -1,29 +1,4 @@
-alter table FT_RESULTADOS
-   drop constraint FK_FT_RESUL_REFERENCE_DIM_CONS;
 
-alter table FT_RESULTADOS
-   drop constraint FK_FT_RESUL_REFERENCE_DIM_PILO;
-
-alter table FT_RESULTADOS
-   drop constraint FK_FT_RESUL_REFERENCE_DIM_GRAN;
-
-alter table FT_RESULTADOS
-   drop constraint FK_FT_RESUL_REFERENCE_DIM_DATA;
-
-alter table FT_RESULTADOS
-   drop constraint FK_FT_RESUL_REFERENCE_DIM_STAT;
-
-drop table DIM_CONSTRUTOR cascade constraints;
-
-drop table DIM_DATA cascade constraints;
-
-drop table DIM_GRANDE_PREMIO cascade constraints;
-
-drop table DIM_PILOTO cascade constraints;
-
-drop table DIM_STATUS cascade constraints;
-
-drop table FT_RESULTADOS cascade constraints;
 
 /*==============================================================*/
 /* Table: DIM_CONSTRUTOR                                        */
