@@ -64,7 +64,7 @@ create table FT_RESULTADOS (
    POSICAO_TREINO       INTEGER               not null,
    POSICAO_GP           VARCHAR2(2)           not null,
    PTS_PILOTO           INTEGER               not null,
-   constraint PK_FT_RESULTADOS primary key ()
+   constraint PK_FT_RESULTADOS primary key (SK_CONSTRUTOR, SK_PILOTO, SK_GRANDE_PREMIO, SK_DATA, SK_STATUS)
 );
 
 alter table FT_RESULTADOS
