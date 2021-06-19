@@ -10,3 +10,5 @@ Para resolver o projeto que foi proposto na Gama Academy + Accenture no treiname
 - Letícia Campos
 - Lucas Cruz
 - Thalia Gurgel
+
+Obs: O dataset foi retirado do Kaggle.
